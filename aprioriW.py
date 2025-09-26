@@ -27,6 +27,6 @@ doc.add_paragraph(str(frequent_itemsets))
 
 # Generate rules with a minimum confidence of 0.5
 rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.5)
-doc.add_paragraph(str(rules))
+doc.add_paragraph(str(rules[['antecedents', 'consequents', 'antecedent support', 'consequent support', 'support', 'confidence']]))
 
 doc.save('hoffer_gregory_midtermproj1.docx')
