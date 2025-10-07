@@ -89,7 +89,7 @@ def print_rules_table(rules):
     
     print("=" * 100)
 
-# Read dataset from trans1.txt <------------------------------------ Transactions source file
+# Read dataset from trans3.txt <------------------------------------ Transactions source file
 def read_dataset_from_file(filename):
     dataset = []
     with open(filename, 'r') as file:
@@ -102,8 +102,8 @@ def read_dataset_from_file(filename):
                 dataset.append(transaction)
     return dataset
 
-dataset = read_dataset_from_file('trans1.txt')
-print(f"Loaded {len(dataset)} transactions from trans1.txt")
+dataset = read_dataset_from_file('trans3.txt')
+print(f"Loaded {len(dataset)} transactions from trans3.txt")
 
 print("DATASET:")
 print("=" * 60)
@@ -125,3 +125,11 @@ print("="*50)
 rules = generate_association_rules(all_frequent_itemsets, dataset, min_confidence=0.7)#<------------------------------------ENTER MINIMUM CONFIDENCE HERE 
 print_rules_table(rules)
 
+
+import time
+start_time = time.time()
+# Your script or code block
+for i in range(1000000):
+   pass
+end_time = time.time()
+print(f"Execution Time: {end_time - start_time} seconds")
