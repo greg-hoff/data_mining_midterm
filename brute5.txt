@@ -1,0 +1,78 @@
+Loaded 20 transactions from trans5.txt
+Total items: 30
+Total transactions: 20
+Minimum support: 0.15 (15.0%)
+
+--- Processing 1-itemsets ---
+Generated 30 possible 1-itemsets
+Found 22 frequent 1-itemsets
+
+--- Processing 2-itemsets ---
+Generated 435 possible 2-itemsets
+Found 13 frequent 2-itemsets
+
+--- Processing 3-itemsets ---
+Generated 4060 possible 3-itemsets
+Found 1 frequent 3-itemsets
+
+--- Processing 4-itemsets ---
+Generated 27405 possible 4-itemsets
+Found 0 frequent 4-itemsets
+
+No frequent 4-itemsets found. Terminating.
+
+============================================================
+FREQUENT ITEMSETS
+============================================================
+
+1-itemsets (count: 22):
+------------------------------------------------------------
+  {'beef'}: support = 0.1500 (15.00%)
+  {'beer'}: support = 0.1500 (15.00%)
+  {'bread'}: support = 0.1500 (15.00%)
+  {'butter'}: support = 0.2000 (20.00%)
+  {'cereal'}: support = 0.2000 (20.00%)
+  {'cheese'}: support = 0.4000 (40.00%)
+  {'chips'}: support = 0.2000 (20.00%)
+  {'coffee'}: support = 0.5000 (50.00%)
+  {'cookies'}: support = 0.2000 (20.00%)
+  {'garlic'}: support = 0.1500 (15.00%)
+  {'grapes'}: support = 0.1500 (15.00%)
+  {'ice_cream'}: support = 0.2000 (20.00%)
+  {'lettuce'}: support = 0.2000 (20.00%)
+  {'oil'}: support = 0.3500 (35.00%)
+  {'onion'}: support = 0.1500 (15.00%)
+  {'pasta'}: support = 0.2000 (20.00%)
+  {'pork'}: support = 0.1500 (15.00%)
+  {'shampoo'}: support = 0.2000 (20.00%)
+  {'soda'}: support = 0.2000 (20.00%)
+  {'spinach'}: support = 0.3000 (30.00%)
+  {'tomatoes'}: support = 0.1500 (15.00%)
+  {'wine'}: support = 0.1500 (15.00%)
+
+2-itemsets (count: 13):
+------------------------------------------------------------
+  {'beef', 'cheese'}: support = 0.1500 (15.00%)
+  {'beef', 'soda'}: support = 0.1500 (15.00%)
+  {'shampoo', 'beer'}: support = 0.1500 (15.00%)
+  {'cereal', 'onion'}: support = 0.1500 (15.00%)
+  {'cheese', 'coffee'}: support = 0.1500 (15.00%)
+  {'cheese', 'oil'}: support = 0.2000 (20.00%)
+  {'cheese', 'soda'}: support = 0.2000 (20.00%)
+  {'chips', 'coffee'}: support = 0.1500 (15.00%)
+  {'coffee', 'lettuce'}: support = 0.2000 (20.00%)
+  {'oil', 'coffee'}: support = 0.2000 (20.00%)
+  {'coffee', 'pasta'}: support = 0.2000 (20.00%)
+  {'oil', 'cookies'}: support = 0.1500 (15.00%)
+  {'spinach', 'grapes'}: support = 0.1500 (15.00%)
+
+3-itemsets (count: 1):
+------------------------------------------------------------
+  {'beef', 'soda', 'cheese'}: support = 0.1500 (15.00%)
+
+============================================================
+SUMMARY
+============================================================
+Total frequent itemsets found: 36
+Maximum itemset size: 3
+Execution Time: 0.026957988739013672 seconds

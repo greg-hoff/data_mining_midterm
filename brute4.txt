@@ -1,0 +1,49 @@
+Loaded 20 transactions from trans4.txt
+Total items: 30
+Total transactions: 20
+Minimum support: 0.15 (15.0%)
+
+--- Processing 1-itemsets ---
+Generated 30 possible 1-itemsets
+Found 11 frequent 1-itemsets
+
+--- Processing 2-itemsets ---
+Generated 435 possible 2-itemsets
+Found 3 frequent 2-itemsets
+
+--- Processing 3-itemsets ---
+Generated 4060 possible 3-itemsets
+Found 0 frequent 3-itemsets
+
+No frequent 3-itemsets found. Terminating.
+
+============================================================
+FREQUENT ITEMSETS
+============================================================
+
+1-itemsets (count: 11):
+------------------------------------------------------------
+  {'cereal'}: support = 0.1500 (15.00%)
+  {'cheese'}: support = 0.4000 (40.00%)
+  {'chips'}: support = 0.2500 (25.00%)
+  {'coffee'}: support = 0.3000 (30.00%)
+  {'cookies'}: support = 0.1500 (15.00%)
+  {'ice_cream'}: support = 0.1500 (15.00%)
+  {'oil'}: support = 0.1500 (15.00%)
+  {'onion'}: support = 0.3000 (30.00%)
+  {'pizza'}: support = 0.1500 (15.00%)
+  {'shampoo'}: support = 0.2000 (20.00%)
+  {'spinach'}: support = 0.2000 (20.00%)
+
+2-itemsets (count: 3):
+------------------------------------------------------------
+  {'cheese', 'chips'}: support = 0.1500 (15.00%)
+  {'cheese', 'onion'}: support = 0.1500 (15.00%)
+  {'chips', 'onion'}: support = 0.1500 (15.00%)
+
+============================================================
+SUMMARY
+============================================================
+Total frequent itemsets found: 14
+Maximum itemset size: 2
+Execution Time: 0.02570343017578125 seconds

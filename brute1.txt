@@ -1,0 +1,40 @@
+Loaded 20 transactions from trans1.txt
+Total items: 24
+Total transactions: 20
+Minimum support: 0.15 (15.0%)
+
+--- Processing 1-itemsets ---
+Generated 24 possible 1-itemsets
+Found 11 frequent 1-itemsets
+
+--- Processing 2-itemsets ---
+Generated 276 possible 2-itemsets
+Found 0 frequent 2-itemsets
+
+No frequent 2-itemsets found. Terminating.
+
+============================================================
+FREQUENT ITEMSETS
+============================================================
+
+1-itemsets (count: 11):
+------------------------------------------------------------
+  {'apples'}: support = 0.2000 (20.00%)
+  {'broccoli'}: support = 0.2000 (20.00%)
+  {'cheese'}: support = 0.2500 (25.00%)
+  {'chips'}: support = 0.1500 (15.00%)
+  {'coffee'}: support = 0.3000 (30.00%)
+  {'ice_cream'}: support = 0.1500 (15.00%)
+  {'lettuce'}: support = 0.2500 (25.00%)
+  {'oil'}: support = 0.1500 (15.00%)
+  {'onion'}: support = 0.2000 (20.00%)
+  {'shampoo'}: support = 0.1500 (15.00%)
+  {'spinach'}: support = 0.2000 (20.00%)
+
+============================================================
+SUMMARY
+============================================================
+Total frequent itemsets found: 11
+Maximum itemset size: 1
+
+Execution Time: 0.025042057037353516 seconds

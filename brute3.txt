@@ -1,0 +1,61 @@
+Loaded 20 transactions from trans3.txt
+Total items: 28
+Total transactions: 20
+Minimum support: 0.15 (15.0%)
+
+--- Processing 1-itemsets ---
+Generated 28 possible 1-itemsets
+Found 12 frequent 1-itemsets
+
+--- Processing 2-itemsets ---
+Generated 378 possible 2-itemsets
+Found 6 frequent 2-itemsets
+
+--- Processing 3-itemsets ---
+Generated 3276 possible 3-itemsets
+Found 1 frequent 3-itemsets
+
+--- Processing 4-itemsets ---
+Generated 20475 possible 4-itemsets
+Found 0 frequent 4-itemsets
+
+No frequent 4-itemsets found. Terminating.
+
+============================================================
+FREQUENT ITEMSETS
+============================================================
+
+1-itemsets (count: 12):
+------------------------------------------------------------
+  {'apples'}: support = 0.1500 (15.00%)
+  {'broccoli'}: support = 0.1500 (15.00%)
+  {'cheese'}: support = 0.3000 (30.00%)
+  {'chips'}: support = 0.1500 (15.00%)
+  {'coffee'}: support = 0.6000 (60.00%)
+  {'ice_cream'}: support = 0.2000 (20.00%)
+  {'lettuce'}: support = 0.2500 (25.00%)
+  {'oil'}: support = 0.1500 (15.00%)
+  {'onion'}: support = 0.2500 (25.00%)
+  {'pizza'}: support = 0.1500 (15.00%)
+  {'shampoo'}: support = 0.3000 (30.00%)
+  {'spinach'}: support = 0.1500 (15.00%)
+
+2-itemsets (count: 6):
+------------------------------------------------------------
+  {'coffee', 'apples'}: support = 0.1500 (15.00%)
+  {'cheese', 'ice_cream'}: support = 0.1500 (15.00%)
+  {'coffee', 'lettuce'}: support = 0.2000 (20.00%)
+  {'coffee', 'onion'}: support = 0.2000 (20.00%)
+  {'coffee', 'shampoo'}: support = 0.2000 (20.00%)
+  {'shampoo', 'lettuce'}: support = 0.2000 (20.00%)
+
+3-itemsets (count: 1):
+------------------------------------------------------------
+  {'coffee', 'shampoo', 'lettuce'}: support = 0.1500 (15.00%)
+
+============================================================
+SUMMARY
+============================================================
+Total frequent itemsets found: 19
+Maximum itemset size: 3
+Execution Time: 0.025937795639038086 seconds
