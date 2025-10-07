@@ -1,0 +1,125 @@
+DATASET:
+============================================================
+ 1. [milk | eggs | chicken | butter | soda | apples | cheese]
+----------------------------------------------------
+ 2. [juice | grapes | pork | tomatoes | seltzer | broccoli | coffee]
+----------------------------------------------------
+ 3. [milk | beef | bread | pasta | wine | lettuce]
+----------------------------------------------------
+ 4. [eggs | chicken | butter | garlic | beer | broccoli]
+----------------------------------------------------
+ 5. [juice | pork | tomatoes | soda | cereal | lettuce]
+----------------------------------------------------
+ 6. [grapes | bread | pasta | seltzer | cookies | spinach]
+----------------------------------------------------
+ 7. [beef | butter | garlic | wine | chips | cheese]
+----------------------------------------------------
+ 8. [chicken | tomatoes | soda | beer | ice_cream | coffee]
+----------------------------------------------------
+ 9. [milk | pork | pasta | seltzer | cereal | shampoo]
+----------------------------------------------------
+10. [eggs | bread | garlic | wine | cookies | onion]
+----------------------------------------------------
+11. [juice | butter | soda | beer | chips | oil]
+----------------------------------------------------
+12. [grapes | tomatoes | seltzer | cereal | ice_cream | pizza]
+----------------------------------------------------
+13. [beef | pasta | wine | cookies | shampoo | apples]
+----------------------------------------------------
+14. [chicken | garlic | beer | chips | onion | broccoli]
+----------------------------------------------------
+15. [pork | soda | cereal | ice_cream | oil | lettuce]
+----------------------------------------------------
+16. [bread | seltzer | cookies | shampoo | pizza | spinach]
+----------------------------------------------------
+17. [butter | wine | chips | onion | apples | cheese]
+----------------------------------------------------
+18. [tomatoes | beer | ice_cream | oil | broccoli | coffee]
+----------------------------------------------------
+19. [milk | pasta | cereal | shampoo | pizza | lettuce]
+----------------------------------------------------
+20. [eggs | garlic | cookies | onion | apples | spinach]
+----------------------------------------------------
+
+==================================================
+APRIORI FREQUENT ITEMSETS
+==================================================
+Frequent 1-itemsets:
+('wine',): 0.2500
+('oil',): 0.1500
+('shampoo',): 0.2000
+('broccoli',): 0.2000
+('apples',): 0.2000
+('butter',): 0.2500
+('cookies',): 0.2500
+('eggs',): 0.2000
+('onion',): 0.2000
+('juice',): 0.1500
+('coffee',): 0.1500
+('beer',): 0.2500
+('cheese',): 0.1500
+('spinach',): 0.1500
+('chips',): 0.2000
+('tomatoes',): 0.2500
+('pizza',): 0.1500
+('pasta',): 0.2500
+('ice_cream',): 0.2000
+('milk',): 0.2000
+('cereal',): 0.2500
+('pork',): 0.2000
+('chicken',): 0.2000
+('soda',): 0.2500
+('seltzer',): 0.2500
+('grapes',): 0.1500
+('garlic',): 0.2500
+('lettuce',): 0.2000
+('bread',): 0.2000
+('beef',): 0.1500
+Frequent 2-itemsets:
+('pasta', 'shampoo'): 0.1500
+('beer', 'broccoli'): 0.1500
+('cookies', 'spinach'): 0.1500
+('butter', 'cheese'): 0.1500
+('butter', 'chips'): 0.1500
+('coffee', 'tomatoes'): 0.1500
+('bread', 'cookies'): 0.1500
+('milk', 'pasta'): 0.1500
+('cereal', 'lettuce'): 0.1500
+('beer', 'chicken'): 0.1500
+('garlic', 'onion'): 0.1500
+('eggs', 'garlic'): 0.1500
+('grapes', 'seltzer'): 0.1500
+('cereal', 'pork'): 0.1500
+('beef', 'wine'): 0.1500
+('ice_cream', 'tomatoes'): 0.1500
+
+==================================================
+ASSOCIATION RULES GENERATION
+==================================================
+
+Association Rules:
+====================================================================================================
+antecedents               consequents               ant_support  cons_support support    confidence
+-----------------------------------------------------------------------------------
+{shampoo}                 {pasta}                   0.2000       0.2500       0.1500     0.7500    
+{broccoli}                {beer}                    0.2000       0.2500       0.1500     0.7500    
+{spinach}                 {cookies}                 0.1500       0.2500       0.1500     1.0000    
+{cheese}                  {butter}                  0.1500       0.2500       0.1500     1.0000    
+{chips}                   {butter}                  0.2000       0.2500       0.1500     0.7500    
+{coffee}                  {tomatoes}                0.1500       0.2500       0.1500     1.0000    
+{bread}                   {cookies}                 0.2000       0.2500       0.1500     0.7500    
+{milk}                    {pasta}                   0.2000       0.2500       0.1500     0.7500    
+{lettuce}                 {cereal}                  0.2000       0.2500       0.1500     0.7500    
+{chicken}                 {beer}                    0.2000       0.2500       0.1500     0.7500    
+{onion}                   {garlic}                  0.2000       0.2500       0.1500     0.7500    
+{eggs}                    {garlic}                  0.2000       0.2500       0.1500     0.7500    
+{grapes}                  {seltzer}                 0.1500       0.2500       0.1500     1.0000    
+{pork}                    {cereal}                  0.2000       0.2500       0.1500     0.7500    
+{beef}                    {wine}                    0.1500       0.2500       0.1500     1.0000    
+{ice_cream}               {tomatoes}                0.2000       0.2500       0.1500     0.7500    
+====================================================================================================
+
+min support = 0.15
+min conf = 0.7
+
+Execution Time: 0.026689767837524414 seconds
