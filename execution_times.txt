@@ -1,0 +1,11 @@
+results1.txt: Execution Time: 0.024784564971923828 seconds
+results2.txt: Execution Time: 0.026689767837524414 seconds
+results3.txt: Execution Time: 0.02566361427307129 seconds
+results4.txt: Execution Time: 0.02498006820678711 seconds
+results5.txt: Execution Time: 0.02501678466796875 seconds
+
+brute1.txt: Execution Time: 0.025042057037353516 seconds
+brute2.txt: Execution Time: 0.027827739715576172 seconds
+brute3.txt: Execution Time: 0.025937795639038086 seconds
+brute4.txt: Execution Time: 0.02570343017578125 seconds
+brute5.txt: Execution Time: 0.026957988739013672 seconds
